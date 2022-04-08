@@ -186,8 +186,7 @@ function worksContainer() {
             </div>`;
     return cards;
   });
-  return element;
-}
+  
 
 window.addEventListener('load', () => {
   mainContainer.innerHTML = worksContainer();
